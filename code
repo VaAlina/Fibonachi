@@ -1,4 +1,20 @@
-Fibonachi
+Fibonachi 1.1
+=========
+//Displays 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946 ... 14930352
+import java.util.*;
+public class Fibonacci {
+ public static void main(String[] args){
+	int a = 1, b = 2, c = a + b;
+	System.out.println(a + "\n"+ b + " ");
+	for(int i = 0; i<11; i++){
+	System.out.println(c = a + b);	
+	System.out.println(a = b + c);
+	System.out.println(b = c + a);
+	}
+ }
+}
+
+Fibonachi 1.0
 =========
 //Displays 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946 etc.
 package toS;
